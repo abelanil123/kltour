@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.logo{
+    width:60%;
+    height:60%;
+
+}
+
+.headtxt{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    border:3px solid black;
+    margin-left: 10px;
+}
+.headtxt:hover{
+    background-color: azure;
+}
+
+.cardani{
+    color: black;
+   /* float: right; */
+   border: 2px silver solid;
+
+}
+
+body {
+    background-repeat: no-repeat;
+    background-size:cover;
+    /* display: grid;
+    align-items: center;
+    justify-content: center; */
+  }
+.img{
+    position: relative;
+    padding:5%;
+}
+  img{
+    position: relative;
+    padding:5%;
+}
+
+.outline{
+    position: absolute;
+    bottom: 0px;
+     background: rgba(0, 0, 0, 0); /* Black see-through */
+    width: 89%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 14px;
+    padding: 10%;
+    font-weight: bolder;
+    text-align: center;
+    top:30%;
+    transition:   transform 3s ;
+  }
+  a{
+      text-decoration: none;
+      color: black;
+  }
+  a:hover{
+      color: black;
+  }
+  .card:hover{
+      border: solid 2px rgb(60, 50, 205) ;
+   
+  }
+ 
+.cardani :hover .outline{
+    opacity: 1;
+    transform: scale(1.31);
+
+}
+.cardani :hover .card-title{
+    color: springgreen;
+
+}
+.cardani :hover .img{
+    transform: rotate(.02deg);
+    transform: scale(0.990101);
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}
+
+.jigo :hover{
+   
+box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+
+}    
+.card-title{
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.m-5{
+    margin-left: 30%;
+}
+.thal{
+
+    position: relative;
+    margin-top: 7%;
+    margin-right: -5%;
+    width: 97%;
+}
+
+
+.card-title{
+    font-weight: 600;
+    text-align: center;
+    text-decoration: underline;
+}
+
+.col-10{
+    border-radius: 1%;
+}
+
